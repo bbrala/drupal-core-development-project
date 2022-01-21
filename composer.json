@@ -73,7 +73,7 @@
             }
         },
         "installer-paths": {
-            "web/core": [
+            "repos/drupal/core": [
                 "type:drupal-core"
             ],
             "web/libraries/{$name}": [

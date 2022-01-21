@@ -53,7 +53,7 @@ class ComposerScripts {
 
     // Symlink the top-level vendor folder into the Drupal core git repo.
     chdir('..');
-    static::makeSymlink('../../vendor', 'repos/drupal/vendor');
+//    static::makeSymlink('../../vendor', 'repos/drupal/vendor');
 
     // Create folders for running tests.
     if (!file_exists('web/sites/simpletest')) {
